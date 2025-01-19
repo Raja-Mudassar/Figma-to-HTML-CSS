@@ -1,0 +1,126 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+.container{
+    /* width: 1440px; */
+}
+.icon {
+    width: 140px;
+    height: 30px;
+}
+.request {
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 36px;
+    width: 150px;
+    margin: 0%;
+}
+.nav-link {
+    color: black;
+    font-size: 14px;
+}
+.hero-section {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+    align-items: center;
+}
+.hero-section p {
+    font-size: 15px;
+}
+.hero-body {
+    height: auto;
+    max-width: 400px;
+   text-align: left;
+}
+.btn1 {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.img {
+    max-width: 600px;
+    height: auto;
+}
+.img img {
+    width: 60%;
+    height: auto;
+    float: right;
+}
+.logos {
+    margin-top: -170px;
+}
+.logos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.logos li {
+    flex: 2; 
+    text-align: center;
+}
+
+.logos img {
+    max-height: 50px;
+    max-width: 40%;
+    object-fit: contain;
+    margin-top: 150px
+}
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 30px;
+    }
+    .hero-body {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-section p {
+        font-size: 14px;
+    }
+    .img img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+    .logos {
+        margin-top: 20px;
+    }
+    .logos ul {
+        gap: 20px;
+    }
+    .logos li {
+        flex: 1 1 45%;
+    }
+    .nav-pills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-link {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .request {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 10px;
+    }
+    .btn1 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
