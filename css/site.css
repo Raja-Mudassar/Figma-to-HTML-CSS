@@ -1,8 +1,12 @@
+
+:root{
+  --btncolor: rgb(41, 236, 41);
+}
 body {
     font-family: 'Space Grotesk', sans-serif;
   }
   .icon {
-    height: 30px;
+    height: 20px;
   }
   .request {
     border: 2px solid black;
@@ -20,6 +24,13 @@ body {
   form input{
     border-radius: 5px;
   }
+ .servs{
+  border: 2px solid;
+  background-color: var(--btncolor);
+ }
+ 
+  
+  
    
   
   
