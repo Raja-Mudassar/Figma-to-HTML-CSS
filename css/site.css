@@ -1,10 +1,11 @@
 
-:root{
-  --btncolor: rgb(41, 236, 41);
+
+ *{
+  font-family: "Space Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
-body {
-    font-family: 'Space Grotesk', sans-serif;
-  }
   .icon {
     height: 20px;
   }
@@ -24,10 +25,9 @@ body {
   form input{
     border-radius: 5px;
   }
- .servs{
-  border: 2px solid;
-  background-color: var(--btncolor);
- }
+
+
+ 
  
   
   
