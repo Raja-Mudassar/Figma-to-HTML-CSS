@@ -1,11 +1,12 @@
 
 
- *{
+*{
   font-family: "Space Grotesk", serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-style: normal;
 }
+
   .icon {
     height: 20px;
   }
@@ -19,19 +20,59 @@
     height: auto;
   }
   .logos img {
-    max-height: 10px;
+    max-height: 100px;
     object-fit: contain;
   }
   form input{
     border-radius: 5px;
   }
+  .fram img{
+      max-height: 400px;
+  }
+  .case-study{
+    background-color: rgba(185, 255, 102, 1); 
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .accordion{
+    background-color: rgba(185, 255, 102, 1);
+  }
 
 
- 
- 
-  
-  
-   
-  
-  
-  
+
+  .pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.arrow {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.arrow:hover {
+    color: #000;
+}
+.stars {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.stars .page-item {
+    font-size: 22px;
+    color: #ccc; /* Default color */
+}
+.stars .page-item.active {
+    color: gold; /* Highlighted star */
+}
+.stars .page-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    
